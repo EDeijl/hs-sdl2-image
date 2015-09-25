@@ -14,7 +14,7 @@ import Data.Maybe (fromMaybe)
 import Foreign.C (withCString, peekCString, CString)
 import Foreign.Ptr (nullPtr)
 import Control.Exception (bracket_)
-import Graphics.UI.SDL (Renderer, Texture)
+import SDL.Raw (Renderer, Texture)
 
 #include "SDL_image.h"
 

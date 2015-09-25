@@ -25,12 +25,12 @@ library
     SDL2
 
   pkgconfig-depends:
-    sdl2 >= 2.0.1,
+    sdl2 >= 2.0.3,
     SDL2_image >= 2.0.0
 
   build-depends:
-    base >= 4.6 && < 4.9,
-    sdl2 >= 1.0 && < 1.4
+    base >= 4.7 && < 5,
+    sdl2
 
   hs-source-dirs:
     src
