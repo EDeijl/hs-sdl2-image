@@ -1,4 +1,4 @@
-module Graphics.UI.SDL.Image
+module SDL.Image
     ( InitFlag(..),
       imgInit,
       imgQuit,
@@ -8,7 +8,7 @@ module Graphics.UI.SDL.Image
 
 import Data.Word (Word32)
 import Prelude hiding (init, Enum(..))
-import Graphics.UI.SDL.Utilities (Enum(..), toBitmask)
+import SDL.Utilities (Enum(..), toBitmask)
 import Control.Monad (when)
 import Data.Maybe (fromMaybe)
 import Foreign.C (withCString, peekCString, CString)
